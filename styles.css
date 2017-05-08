@@ -1,0 +1,50 @@
+body {
+  background: #f5f5f5;
+  padding-top: 50px;
+}
+
+main {
+  width: 300px;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 40px;
+}
+
+.time-amount {
+  font-size: 2em;
+}
+
+#dial {
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 4em;
+  padding: 100px;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+}
+
+.setter {
+  font-size: 2em;
+  vertical-align: middle;
+}
+
+.session-time {
+  border: 2px solid #000;
+  color: #000;
+}
+
+.times-up {
+  border-color: red;
+  color: red;
+}
+
+.break-time {
+  border: 2px solid green;
+  color: green;
+}
+
