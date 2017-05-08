@@ -67,7 +67,7 @@ var clock = {
                         timeInSec--;
                         $('#timer').html( clock.formatTime( timeInSec ) );
                       }
-    }, 200);
+    }, 1000);
   },
   changeSessionTime: function(e) {
     e.preventDefault();
